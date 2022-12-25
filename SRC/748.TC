@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 748 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 748)
+
+(Question35
+   "4Which is not an American armed force?"
+   "the Army"
+   "the Navy"
+   "the National Guard"
+   "the National League"
+)
+(Question36
+   "1The most effective form of birth control is"
+   "abstinence."
+   "the Rhythm Method."
+   "the Pill."
+   "dating ugly people."
+)
+(Question37
+   "3Which is not a city in Mexico?"
+   "Tijuana"
+   "Puerto Vallarta"
+   "San Diego"
+   "Mexico City"
+)
+(Question38
+    "1Herb Alpert and the \_\_\_\_\_ Brass"
+    "Tijuana"
+    "Boss"
+    "Canadian"
+    "Top"
+)
+(Question39
+   "2\"It's not nice to fool\""
+   "Mother Hubbard."
+   "Mother Nature."
+   "the government."
+   "Mayor Daly."
+)

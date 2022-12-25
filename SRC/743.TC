@@ -1,0 +1,49 @@
+;**
+;**	Logics for room 743 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 743)
+
+(Question10
+   "4Who is not a famous musician?"
+   "Lawrence Welk"
+   "Tommy Dorsey"
+   "Les Brown"
+   "Steve Garvey"
+)
+(Question11
+   "3Which is non-alcoholic?"
+   "whiskey"
+   "Grand Marnier"
+   "Perrier"
+   "tequila"
+)
+(Question12
+   "3Who was not a politician?"
+   "Richard Nixon"
+   "Ronald Reagan"
+   "W. C. Fields"
+   "George Bush"
+)
+(Question13
+   "3The last name of Annette (on the original Mickey Mouse Club)
+   	was"
+   "Funnicular."
+   "that WAS her last name."
+   "Funicello."
+   "Avalon."
+)
+(Question14
+   "3\"Tiptoe Through the Tulips\" was recorded by"
+   "Alice Cooper."
+   "Alice B. Toklas."
+   "Tiny Tim."
+   "Big Tiny Little."
+)

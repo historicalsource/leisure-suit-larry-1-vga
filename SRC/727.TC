@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 727 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	July 9, 1991
+;**
+
+
+(script# 727)
+
+(Question32
+   "3Spiro Agnew is"
+   "a form of social disease."
+   "a jazz-fusion rock band."
+   "a former Vice President."
+   "the first woman in Congress."
+)
+(Question37
+   "3Frank Sinatra is a"
+   "female impersonator."
+   "shy pacifist."
+   "saloon singer."
+   "distance runner."
+)
+(Question38
+   "1Ralph Boysen invented"
+   "the boysenberry."
+   "fins on 50's cars."
+   "bell bottomed jeans."
+   "the juke box."
+)
+(Question39
+   "3The first man on the moon was"
+   "John Glenn."
+   "Neil Diamond."
+   "Neil Armstrong."
+   "Jack Armstrong."
+)
+(Question40
+   "3\"Gone With The Wind\" is about"
+   "outer space."
+   "a bank robbery."
+   "four hours long."
+   "dust."
+)

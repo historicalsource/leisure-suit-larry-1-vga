@@ -1,0 +1,877 @@
+;;******************************
+;;**** Sounds added 4/24/91 ****
+;;******************************
+;
+;(800.snd        ;sCitySounds            Play:20         m?---?  Loop
+;                ;Alters reverb mode
+;                ;*** Removed reverb mode change because of noise...CB
+;     (seq\Traffic.mid)
+;)
+;
+;(803.snd        ;sNeonBuzz              Play:10          m?---?
+;                ;******* REMOVED FROM GAME *****
+;                ;must be lower priority than sCitySounds to take
+;                ;"region reverb"
+;     (seq\Neon.mid)
+;)
+;
+;(810.snd        ;sCarHonk               Play:10          m????-
+;      (seq\Honk.mid)
+;)
+;
+;(811.snd        ;sCarThump              Play:10          m?????
+;      (seq\CarThud.mid)
+;)
+;
+;(812.snd        ;sCarLeaving            Play:10          m?????
+;      (seq\SpeedAwy.mid)
+;)
+;
+;(820.snd        ;sBreathSpray           Play:10          m?---?
+;      (seq\Spray.mid)
+;)
+;
+;
+;;*********************************************************
+;;******* Sounds added 4/25/91 ****************************
+;;*********************************************************
+;
+;
+;(101.snd        ;sNuclearBlowup         Play:10         m?????
+;     (seq\VDXplode.mid)
+;)
+;
+;(105.snd        ;sNuclearHiss           Play:10         m?????
+;     (seq\VDBurn.mid)
+;)
+;
+;
+;(200.snd        ;sYellTaxi              Play:10         matjs?
+;    (seq\YoTaxi.mid)
+;)
+;
+;(202.snd        ;sCabTires              Play:10         m?????
+;    (seq\Screech.mid)
+;)
+;
+;(203.snd        ;sCabDoorOpen           Play:10         m?????
+;    (seq\CabDoorO.mid)
+;)
+;
+;(204.snd        ;sCabDoorClose          Play:10         m?????
+;    (seq\CabDoorC.mid)
+;)
+;
+;(205.snd        ;sCabDeparting          PlayBed:10      m????? Loop
+;                ;Send pitchbends to Channel 9 according to
+;                ;cab speed. PB range = 0 (idle) to 8191 (fastest)
+;                ;Bring volume down to 90 when scene changes from outside view
+;                ;to inside cab view.
+;     (seq\CabMotor.mid)
+;)
+;
+;(206.snd        ;mCab                   PlayBed:50      m????- Loop
+;                ;Play while inside cab
+;     (seq\Taxi.mid)
+;)
+;
+;(821.snd        ;sScoredPoints          Play:10         matjs?
+;     (seq\Points.mid)
+;)
+;
+;
+;;******************************************
+;;**** Sounds added 4/29/91 ****************
+;;******************************************
+;
+;(160.snd        ;sFalling               Play:10         matjs-
+;     (seq\Fall.mid)
+;)
+;
+;(161.snd        ;sLandInTrash           Play:10         m?????
+;     (seq\TrshLand.mid)
+;)
+;
+;(163.snd        ;sOutOfTrash            Play:10         m?????
+;     (seq\TrshOut.mid)
+;)
+;
+;(164.snd        ;sSplatOnPavement       Play:10         m?????
+;     (seq\Splat.mid)
+;)
+;
+;(167.snd        ;sGlassBreaking         Play:10         m?????
+;     (seq\GlassBrk.mid)
+;)
+;
+;(171.snd        ;sFight                 Play:10         m????? Loop
+;     (seq\Fight.mid)
+;)
+;
+;(172.snd        ;sDizzy                 Play:10         m?????
+;                ;play after EGO stops fighting with himself but
+;                ;is still standing.
+;     (seq\Dizzy.mid)
+;)
+;
+;(173.snd        ;sBounce                Play:10         m?????
+;                ;play when EGO hits ground after fight
+;     (seq\Bounce.mid)
+;)
+;
+;(165.snd        ;mTrapeze               Play:10         m????-  Loop
+;                ;Play while EGO is leaning out from fire escape
+;     (seq\Trapeze.mid)
+;)
+;
+;(170.snd        ;mDarkAlley             PlayBed:50      m????-  Loop
+;                ;Play until EGO stops fighting with himself
+;    (seq\Alley.mid)
+;)
+;
+;
+;**************************************************
+;***** Sounds added 4/30/91 ***********************
+;**************************************************
+;
+;(111.snd        ;sDrinking              Play:10         m?????
+;     (seq\Glug.mid)
+;)
+
+(112.snd        ;sMugOnBar              Play:10         m?????
+     (seq\MugSlam.mid)
+)
+
+;(116.snd        ;sRecordStart           Play:10         m?----
+;                ;Play until sound done
+;    (seq\RecStart.mid)
+;)
+;
+;(117.snd        ;sRecordNoise           Play:10         m?----  Loop
+;                   ;Start 3 seconds before starting music selection
+;                ;Loop while playing music selection
+;                   ;End 3 seconds after ending music selection
+;     (seq\Tracking.mid)
+;)
+;
+;(118.snd        ;sRecordDone            Play:10         m?----
+;                ;play after ending RecordNoise
+;                ;play until sound done
+;     (seq\RecEnd.mid)
+;)
+;
+;(119.snd        ;sPeepholeSlider        Play:10         m?????
+;     (seq\Peephole.mid)
+;)
+;
+;***********************************************************
+;****** 5/3/91 *************
+;***********************************************************
+;
+;Changed 810.snd (sCarHonk).  Programmer must fade sound in as car
+;appears on screen.  Hit maximum volume when EGO is run over.
+;Then fade out sound as car dissappears.  Also send pitch bend to channel
+;2 from 0 to -1270 as car dissappears.
+;
+;Note for 171.snd (sFight). Loop this sound until end of "dust cloud"
+;animation.
+;
+;Note for 172.snd (sDizzy). Stop this sound when EGO hits the ground.
+;
+;Note for 173.snd (sBounce). Don't play this sound until EGO hits the
+;ground.
+;
+;(141.snd        ;mChannel1              PlayBed:50      m????-  Loop
+;                ;All TV sounds loop indefinatly until the next channel
+;                ;is selected or ego exits the room.  If ego exits room
+;                ;and then returns, the last TV sound played (if any) needs
+;                ;to be started.
+;     (seq\Romeo.mid)
+;)
+;
+;(147.snd        ;mChannel7              PlayBed:50      m????-  Loop
+;     (seq\Rondeau.mid)
+;)
+;
+;(148.snd        ;mChannel8              PlayBed:50      m????-  Loop
+;                ;This sound plays for the last TV channel.  It continues
+;                ;in the Hookers room.  If EGO pays for Hooker instead of
+;                ;selecting channels, this sound starts in the hooker's
+;                ;room.
+;      (seq\Porn.mid)
+;)
+;
+;(410.snd        ;mSyrupOrgan            PlayBed:50      m????-   Loop
+;     (seq\air.mid)
+;)
+;
+;**************************************************
+;***** 5/6/91 *******
+;**************************************************
+;(411.snd        ;mLohingren             PlayBed:50      m????-   Loop
+;     (seq\WMarch.mid)
+;)
+;
+;(142.snd        ;mChannel2              PlayBed:50      m????-  Loop
+;     (seq\Motel6.mid)
+;)
+;
+;(145.snd        ;mChannel5              PlayBed:50      m????-  Loop
+;    (seq\Rogers.mid)
+;)
+;
+;(146.snd        ;mChannel6              PlayBed:50      m????-  Loop
+;    (seq\Sports.mid)
+;)
+
+Note for 321.snd to 326.snd.  326.snd is out.  5 Drum fills only.
+Sampled sound devices will only have 2 drum fills: 321 and 322.  So
+you'll need to know whether the current driver is a sample device and
+adjust the code to only call those 2 sounds.
+
+;************************************************
+;********* 5/7/91 ******************
+;************************************************
+
+;(144.snd        ;mChannel4              PlayBed:50      m????-  Loop
+;    (seq\Rhino.mid)
+;)
+;
+;(143.snd        ;mChannel3              PlayBed:50      m????-  Loop
+;    (seq\Revenge.mid)
+;)
+;
+;(140.snd        ;mChannelChanging       Play:10         m?????
+;     (seq\TVClick.mid)
+;)
+;
+;
+;**************************************
+;***** 5/8/91 ******
+;**************************************
+;
+;(250.snd        ;sCardOn                Play:10         m????-
+;     (seq\Card.mid)
+;)
+;
+;(251.snd        ;sBJLose                Play:10         m????-
+;     (seq\BJLose.mid)
+;)
+;
+;(252.snd        ;sBJWin                 Play:10         m????-
+;     (seq\BJWin.mid)
+;)
+;
+;(260.snd        ;sButtonPress           Play:10         m????-
+;     (seq\Button.mid)
+;)
+;
+;(261.snd        ;sWheelsSpinning        Play:10         m????-
+;     (seq\Wheel.mid)
+;)
+;
+;(262.snd        ;sWheelStopping         Play:10         m????-
+;     (seq\WheelStp.mid)
+;)
+;
+;(263.snd        ;sWinSmall              Play:10         m????-
+;     (seq\WinSmall.mid)
+;)
+;
+;(264.snd        ;sWinBig                Play:10         m????-
+;     (seq\WinBig.mid)
+;)
+;
+;(265.snd        ;sWinJackPot            Play:10         m????-
+;     (seq\WinJack.mid)
+;)
+;
+;(266.snd        ;sCashOut               Play:10         m????-
+;     (seq\CashOut.mid)
+;)
+;
+;Note for 310.snd (mCasino).  Sound should be played at volume = 50 while
+;in Casino/Hotel lobby.  Bring volume up to 100 when in elevator.
+;Sound should fade out when you go to close up of BlackJack or Poker
+;machines.  Restart when you leave the machines.
+;
+;
+;;*****************************************
+;;********* 5/9/91 ************************
+;;*****************************************
+;
+;(610.snd        ;mDiscoInterior         PlayBed:50      m????-   Loop
+;     (seq\Disco.mid)
+;)
+;
+;(508.snd        ;sPhone0                Play:10         matjs-
+;     (seq\TT0.mid)
+;)
+;
+;(300.snd        ;sDoorsCasino           Play:10         m?????
+;                ;Stop sound when doors stop moving
+;     (seq\SlidDoor.mid)
+;)
+;
+;(301.snd        ;sFountain              Play:10         m?---?     Loop
+;     (seq\Fountain.mid)
+;)
+;
+;(600.snd        ;mDiscoExterior         Play:10         m?---?   Loop
+;    (seq\DisThump.mid)
+;)
+;
+;
+;(253.snd        ;sBlackJack               Play:10         m????-
+;    (seq\BlkJack.mid)
+;)
+;
+;;************************************
+;;******* 5/10/91 ********************
+;;*************************************
+;
+;(104.snd        ;mPoliceman             Play:10         m?????
+;     (seq\Police.mid)
+;)
+;
+;(135.snd        ;sToiletGusher          Play:10         m?????   Loop
+;     (seq\Gusher.mid)
+;)
+;
+;(151.snd        ;sWindowUp              Play:10         m?????
+;     (seq\Window.mid)
+;)
+;
+;(155.snd        ;sGumPopping            Play:10         m?????
+;     (seq\Gum.mid)
+;)
+;
+;
+;Note for jumping into Trash (162.snd sIntoTrash)
+;        Use sound 161 sLandInTrash.
+;
+;Note for jumping out of trash:
+;Call 161.snd when EGO starts to jump out of trash.
+;Call 163.snd to match EGO's feet hitting ground.
+;
+;162.snd is out (sIntoTrash)
+;166.snd is out (sSwingingHammer)
+
+131.snd is out (sWashingHands)
+201.snd is out (sCabComing)
+
+
+;Blackjack: use 260.snd (sButtonPress) for buttons here also.
+;           Use 266.snd (sCashOut) for Cash Out here also
+;
+;(340.snd        ;sElevatorFloorDing     Play:10         m?????
+;     (seq\ElevDing.mid)
+;)
+;
+;(341.snd        ;sKnocking              Play:10         m?????
+;     (seq\Knock.mid)
+;)
+;
+;(350.snd        ;sElevatorDoors         Play:10         m?????
+;     (seq\ElevDoor.mid)
+;)
+
+;**********************************************
+;***** 5/13/91 *******************
+;**********************************************
+
+;(103.snd        ;mDog                   Play:10         m????-
+;     (seq\Dog.mid)
+;)
+
+(120.snd        ;mDrunk                 Play:10         m????-
+                ;play for bum outside of Quickie Mart
+    (seq\HowDry.mid)
+)
+
+;(611.snd        ;mDanceNumber           PlayBed:50      m????-
+;                ;Start:         Couple stands
+;                ;Cue 10:        Larry walks out
+;                ;Cue 20:        Fawn walks out and couple strikes pose
+;                ;Cue 30:        Larry brings her back in-Dance starts
+;                                        Loop on Travolta step.
+;                ;Cue 40:        Loop on Cossack Dance
+;                ;Cue 50:        Loop on Twirl
+;                ;Cue 60:        Fawn comes down-new loop-*temp Travalta
+;                ;Cue 70:        New Loop- *temp spin
+;                ;Cue 80:        Strike end pose-hold for a few seconds
+;                                        Travolta pose.
+;     (seq\Beet5.mid)
+;)
+
+;Note on Cab Sound:
+;        Cab motor should accelerate (pitch bend up) after drops Larry
+;off just like it does when it picked Larry up.
+;
+;Also - possible bug - when you hail the cab at the Quikie Mart, if you
+;walk to the Disco after it comes, the cab sound does not go away.
+;
+;*** Use 171.snd (sFight) for fight with cab driver.
+;*** Use 811.snd (sCarThump) for getting run over by cab after fight.
+;
+;
+;(351.snd        ;mFloor8                PlayBed:50      m????-  Loop
+;                ;Play while on 8th Floor
+;     (seq\SpanGirl.mid)
+;)
+;
+;(352.snd        ;mPills                 PlayBed:50      m????-  Loop
+;                ;When EGO gives Faith the pills stop mFloor8 and
+;                ;play this until Faith walks away.
+;     (seq\SpanFly.mid)
+;)
+;
+;(353.snd        ;mFaithLeaving          PlayBed:50      m????-
+;                ;Play when Faith walks away
+;                ;When she's gone then restart mFloor8
+;     (seq\SpanBye.mid)
+;)
+
+*** 355.snd is out!
+
+;(320.snd        ;mCanCan                PlayBed:50      m????-     Loop
+;    (seq\Polka.mid)
+;)
+
+;********************************************
+;************ 5/14/91 ***********************
+;********************************************
+
+;(380.snd        ;sBubbles               Play:10         m?---?  Loop
+;                ;turn off and on with state of bubble switch
+;     (seq\Bubbles.mid)
+;)
+
+(383.snd        ;sGurgles               Play:5          m?---?   Loop
+                ;Sound for gurgling brook
+                ;Lower priority than bubbles
+     (seq\Gurgles.mid)
+)
+;
+;(393.snd        ;sKnifeFlip             Play:10         m????-
+;                ;stop sound with 394.snd (sCuttingRibbon)
+;     (seq\KnifeFlp.mid)
+;)
+;
+;(394.snd        ;sCuttingRibbon         Play:10         m?????
+;     (seq\KnifeCut.mid)
+;)
+;
+;(400.snd        ;FlasherOpening         Play:10         m????-
+;     (seq\FlashO.mid)
+;)
+;
+;(401.snd        ;FlasherClosing         Play:10         m????-
+;     (seq\FlashC.mid)
+;)
+
+;(370.snd        ;sInflateDoll           Play:10         m?????
+;     (seq\DollBlow.mid)
+;)
+
+;(371.snd        ;sDollPops              Play:10         m?????
+;     (seq\DollXpld.mid)
+;)
+
+;(372.snd        ;sDollDefalating        Play:10         m?????   Loop
+;     (seq\DollHiss.mid)
+;)
+
+;(373.snd        ;sFireworksLaunch       Play:10         m?????
+;     (seq\FWLaunch.mid)
+;)
+;
+;(374.snd        ;sFireworksExplosions.mid    Play:10         m?????
+;     (seq\FWXPlode.mid)
+;)
+
+;(514.snd        ;mGunShot               Play:10         m?????
+;    (seq\Gun.mid)
+;)
+
+;(710.snd        ;sQuestionAppears       Play:10         matjs?
+;     (seq\QPresent.mid)
+;)
+;
+;(711.snd        ;sRight                 Play:10         m?????
+;     (seq\QRight.mid)
+;)
+;
+;(712.snd        ;sWrong                 Play:10         m?????
+;     (seq\QWrong.mid)
+;)
+
+
+;**********************************************
+;********** 5/15/91 ***************************
+;**********************************************
+;
+;(390.snd        ;mMacTheKnife           PlayBed:50      m????-  Loop
+;                ;Play this sound after radio turned on and
+;                ;until EGO gets on bed
+;     (seq\Mac1.mid)
+;)
+;
+;(395.snd        ;sAjax                  PlayBed:50      m????-
+;                ;Play for Commercial, then resume 390.snd (fade in)
+;                ;where it left off
+;     (seq\Ajax.mid)
+;)
+;
+;(150.snd        ;mHooker                PlayBed:50      m????-  Loop
+;                ;Play while having sex with hooker
+;                ;Then restart 148.snd (mChannel8) from the beginning
+;     (seq\Hooker.mid)
+;)
+;
+;Notes:
+;When you get to the 8th floor via elevator, fade the elevator music out.
+;
+;When you move from the Casino to the elevator room, don't restart the
+;music, just change the volume.
+;
+
+;***************************************************
+;************** 5/16/91 ****************************
+;***************************************************
+
+Notes:
+Use 260.snd (sButtonPress) for the change bet buttons on the blackjack
+machine.
+
+sBJLose and sBJWin (251.snd and 252.snd) should play before the print
+window is displayed, not after it is dismissed.
+
+When you exit the disco, fade the disco music
+
+;Don't loop mDog (103.snd).  Just play it once each time the dog enters
+;the screen.
+
+;********************************************************
+;**************** 5/18/91 *******************************
+;********************************************************
+
+;(396.snd       ;sHnyMoon2               PlayBed:50     m????-    Loop
+;               ;Play when EGO gets in bed with Fawn
+;               ;(after print window "I have a surprise.." is dismissed)
+;               ;Dust Cloud animation should continue until Cue 10
+;     (seq\HnyMoon2.mid)
+;)
+
+;Notes:
+;Wedding Chapel Music: 410.snd (mSyrupOrgan) should loop as long as EGO
+;is in the Chapel, until Rev. says "I now pronounce you..."
+
+;411.snd (mLohingren) should start after "I now pronounce you..." and
+;loop until EGO leaves the chapel.  If EGO ever re-enters the Chapel this
+;music should play.
+
+;Elevator-8th floor: I think the elevator music (310.snd mCasino) should
+;just fade out when you arrive at the 8th floor and the Spanish music
+;(351.snd mFloor8) should start.  Then when you go back down, fade the
+;Spanish music and restart the elevator music.  Two reasons: the 8th
+;floor has a different "look" to it and it would be nice to reflect the
+;different "look" in the music as soon as you get there.  Also, with 2
+;fully orchestrated sounds playing at the same time we are going to run
+;into technical problems with channel pre-empting and sound FX not
+;playing.
+;
+;Cabaret: exitting the cabaret, the casino music (310.snd mCasino)
+;should restart.
+;
+;Hooker: 155.snd (sGumPopping) should not continue to play in the
+;close up because there is no bubble popping animation.
+;
+;
+;(312.snd        ;mConversation          Play:10         m????-     Loop
+;                ;Play while in casino area
+;     (seq\CasNoise.mid)
+;)
+;
+;Note for 310.snd (mCasino).  Oops, volume=50 is too soft, use volume=90
+;while in the casino and volume=127 when in elevator. Sorry.
+;
+
+;****************************************************************
+;************* 5/20/91 ******************************************
+;****************************************************************
+
+;(381.snd        ;mHotTub                PlayBed:50      m????-  Loop
+;                ;play for entire Penthouse floor
+;                ;Volume changes:
+;                ;       On closeup of Eve:
+;                ;               Set Channel 3 to 100 - Flute
+;                ;               Set Channel 8 to 110 - HH
+;                ;               Set Channel 4 to 0   - Gtr Melody
+;                ;
+;                ;       On exit closeup of Eve (except under program control)
+;                ;               Set Channel 3 to 0   - Flute
+;                ;               Set Channel 8 to 0   - HH
+;                ;               Set Channel 4 to 127 - Gtr Melody
+;                ;
+;                ;       On Eve gets the apple:
+;                ;               Set Channel 5 to 75  - Solo
+;                ;
+;                ;       On Couple exits hot tub (program control):
+;                ;               Set Channel 2 to 0   - Ballad Bass
+;                ;               Set Channel 6 to 110 - Walking Bass
+;                ;               Set Channel 9 to 110 - Ride Cymbal
+;     (seq\Penthous.mid)
+;)
+
+
+;************************************************
+;*********** 5/21/91 ***************************
+;***********************************************
+
+;(190.snd        ;mDeath                 PlayBed:50      m????-
+;     (seq\Death.mid)
+;)
+
+;(136.snd        ;sDripNoLoop            Play:10         m?????
+;                ;***Game - single shot drip
+;                ;Play for each drip in bathroom
+;     (seq\DripNL.mid)
+;)
+
+;*****************************************************
+;********** 5/22/91 **********************************
+;*****************************************************
+
+;(192.snd        ;sElevator              Play:10         m?????   Loop
+;     (seq\MElevatr.mid)
+;)
+
+;(193.snd        ;sFactory               Play:10         m???--   Loop
+;     (seq\MFactry.mid)
+;)
+
+;(194.snd        ;sEgoOffElevator        Play:10         m?????
+;                ;Play when EGO is dumped from elevator
+;                ;Also when EGO is dumped on elevator from conveyor.
+;     (seq\MDumpEgo.mid)
+;)
+
+;(195.snd        ;sBlender               Play:10         m????-
+;                ;Hold on Hold point 10 until blender spins down
+;                ;then release sound and it will end.
+;     (seq\MBlender.mid)
+;)
+
+;(196.snd        ;sGurgle                Play:10         m?????    Loop
+;     (seq\MBubbles.mid)
+;)
+
+;(197.snd        ;sMachineGrunts         Play:10         m????-
+;                ;play when EGO enters machine
+;                ;Wait until sound done before continuing
+;     (seq\MMachine.mid)
+;)
+
+;(198.snd        ;sSquirt.mid            Play:10         m?????    Loop
+;     (seq\MSquirt.mid)
+;)
+
+;(199.snd        ;mConveyor              Play:10         m?????  Loop
+;     (seq\MConveyr.mid)
+;)
+
+(302.snd        ;mAppleMan              Play:50         m????-
+     (seq\Apple.mid)
+)
+
+Note for "Outdoors region" sounds.  The Traffic (800.snd) and
+fountain (301.snd) sounds should not pause when the ICON bar is
+brought up.
+
+;(512.snd        ;sPervert               Play:10         m?????
+;    (seq\Pervert.mid)
+;)
+
+
+
+;*******************************************************
+;* 6/5/91 Notes
+;*******************************************************
+381.snd mHotTub:
+        Sound must be suspended, then started, then Channels
+4,7,9,10,and 6 muted, then un-suspended.  Then...
+
+                ;Mute changes:
+                ;       On closeup of Eve:
+                ;               UnMute Channel 4 - Flute
+                ;               UnMute Channel 9 - HH
+                ;               Mute Channel 5 - Gtr Melody
+                ;
+                ;       On exit closeup of Eve (except under program control)
+                ;               Mute Channel 4 - Flute
+                ;               Mute Channel 9 - HH
+                ;               UnMute 5 - Gtr Melody
+                ;
+                ;       On Eve gets the apple:
+                ;               UnMute Channel 6 - Solo
+                ;
+                ;       On Couple exits hot tub (program control):
+                ;               Mute Channel 3 - Ballad Bass
+                ;               UnMute Channel 7 - Walking Bass
+                ;               UnMute Channel 10 - Ride Cymbal
+     (seq\Penthous.mid)
+
+               ;Play this song until Ken Williams is about to walk out.
+                ;Then fade it and start the Larry Theme music
+                ;(700.snd mThemeSong)
+
+
+
+;(191.snd (-p10) ;sGroundOpens           Play:10         ma????
+;                ;Play when Ground opens under EGO after death.
+;                ;Also play this sound when the conveyer belt dumps EGO
+;                ;on the elevator going up.  Start the elevator going up
+;                ;sound just after playing this sound.
+;     (seq\MGrdOpen.mid)
+;)
+
+;
+;;***Notes***
+;        Start the factory elevator sound (192.snd sElevatorLowering)
+;just after 191.snd sGroundOpens.
+;
+;***Need to loop sGurgle (196.snd) and sSquirt (198.snd).
+;
+;*** Hook in mAppleMan  (302.snd)
+;
+
+
+;*******************************************************
+;* Notes 6/10/91
+;*******************************************************
+
+From Mark Seibert:
+;        Door sounds at Lefty's, Pimproom?		;no mem
+;
+;        Pants exploding timing is off.
+;
+;        Door FX at Chapel, and Honeymoon Suite?
+
+
+From Chris:
+        Fade in the DiscoThump (mDiscoExterior 600.snd)
+
+        Fade the Casino Noises in and out. (sConversation 312.snd)
+
+        Sliding Door opening when leaving the Casino should stop
+        with the animation.  (sDoorsCasino 300.snd)
+
+        When going from the questions screen to the opening of the game,
+        the Larry theme should immediatly start fading out VERY slowly.
+        (mThemeSong 700.snd)
+
+        Loop the dialtone sound (sPhoneDialtone 490.snd) until user
+        presses button or exits.
+
+(502.snd (-p10) ;sPhoneBusy             Play:10         matjsx  Loop
+     (seq\BusySig.mid)
+     (savesmp\BusySig.smp[gat])
+)
+
+(503.snd (-p10) ;sPhoneRinging          Play:10         matjsx
+                ;call once each 2 sec after placing a call
+     (seq\DialRing.mid)
+     (savesmp\DialRing.smp[gat])
+)
+
+(504.snd (-p10) ;sPhoneRingingHere      Play:10         matjsx
+                ;call once each 2 sec when phone is ringing for Larry
+                ;to pick up
+     (seq\TeleRing.mid)
+     (savesmp\TeleRing.smp[gat])
+)
+;*****************************
+;*** 6/13/91 ***
+;*****************************
+
+
+(384.snd (-p20) ;sSplash                               ma---x
+                ;Play when Larry jumps into Hot Tub
+     (seq\Splash.mid)
+     (savesmp\Splash.smp[gat])
+)
+
+;;;;;;;
+
+;Chris :
+
+;We're not getting ANY fireworks sounds on the soundblaster
+;**** FIXED, CB
+
+;****************************
+;* 6/17/91
+;****************************
+
+Notes:
+;        Fade out casino noise (sConversation 312.snd)
+;when you leave the casino room.  Right now
+;it just stops abrubtly I think.
+;
+;Cab Music (mCab 206.snd) gets cut off in front of disco. Conflict with
+;MDiscoExterior (600.snd)
+
+Loop the Wedding March music (mLohingren 411.snd) until Larry exits the
+chapel.
+
+;Door open sound is playing when entering Honeymoon suite although there is no
+;animation for it.   *** OK *** CB
+
+When Ajax Liquor answers use sPhoneAnswered (505.snd)
+
+In HoneyMoon suite (mMacTheKnife 390.snd)) doesn't resume immediatly
+after mMac2 (396.snd) if a print window is up.  Can we solve this?
+
+There is a delay before EGO cuts the ribbon with the knife.  Is this
+because of loading sCuttingRibbon (394.snd) sound?  If so, pre-load that
+sound.
+
+;When exiting the Casino Elevator on the first floor, the music sometimes
+;doesn't get softer as it should.  I think it depends on where you click
+;to walk to...
+;
+;The Hookers BubblePop is getting called several times each bubble.  It
+;should just be called once per Pop!
+;
+;When Larry falls off the fire escape to his death, stop the fall sound
+;when he hits the ground!
+;
+;The DiscoInterior music cross-fades with the dance music on the CMS
+;card.  To fix this you need to wait until the discointerior music is
+;done fading  before starting the disco dance music.  *** FIXED ***CB
+;
+;
+;;*************************
+;;* 6/18/91
+;;*************************
+;
+;(121.snd (-p10) ;mHicUp                                 ma---x
+;    (seq\HickUp.mid)
+;    (savesmp\HickUp.smp[mat])
+;)
+
+
+Need Knock and Door-open sound for Naugahyde door into pimp room if
+there is room.
+
+Use Glug sound for misister taking a "nip", maybe hic-up as well?
+
+If you stand in front of the disco until the dog comes, the dog music
+will knock out the disco thump.  Also, the instant the dog pees on
+Larry, the Bouncer interrupts with "You smell like a fire hydrant". The
+print box cuts off the dog pee sound.  Maybe just set the flag for the
+dog pee sound to not be interupted?
+
+
+
+

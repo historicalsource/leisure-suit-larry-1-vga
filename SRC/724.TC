@@ -1,0 +1,49 @@
+;**
+;**	Logics for room 724 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 724)
+
+(Question21
+   "3Who was not Vice-President of the United States in 1973-74?"
+   "Gerald Ford"
+   "Nelson Rockefeller"
+   "Thomas Hayden"
+   "Spiro Agnew"
+)
+(Question22
+   "4The \"Chicago Seven\" was"
+   "some people who only seem crazy in retrospect."
+   "the Bears' defensive line."
+   "burned for showing \"Country\" in three different theatres."
+   "partially convicted."
+)
+(Question23
+   "3President Ford prescribed \_\_\_\_\_ for dealing with economic
+			problems."
+   "tranquilizers"
+   "employment"
+   "that everyone wear a WIN button"
+   "that everyone should have a nice day"
+)
+(Question24
+   "0The tackiest seventies fashion was"
+   "platform shoes."
+   "midi-skirts."
+   "short hair."
+   "bisexuality."
+)
+(Question25
+   "4O. J. Simpson is"
+   "an R & B singer."
+   "under indictment."
+   "embarrassed by his first name (Olivia)"
+   "no one to fool with."
+)

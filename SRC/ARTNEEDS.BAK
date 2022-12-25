@@ -1,0 +1,138 @@
+ARTNEEDS
+
+
+NOTE: IF YOU ARE LOOKING FOR THESE CHANGES AND CAN'T FIND THEM CHECK
+ON DESI'S C:VIEW/NEWVIEW DIRECTORY
+
+
+
+
+need cycling death views
+** done view 870 & 971
+;**	BUT skip color has to be removed.
+;**	Also, somebody tell Oliver what kind of cycling fits which loop.  
+
+** done 6/6
+
+Someday, get rid of dots on origin points.
+
+** not done yet 6/6
+
+smelltaste icon & cursor 
+;**	Bill, this one's better but too "quick and dirty".  Give it some
+;**	detail, like other cursors have.
+
+** done 6/11
+
+make walking view of faith a running view
+** done
+;**	Where?  Ours still has a stepSize of 3.  She should be a 5 ??
+
+** done 6/6
+
+priority in 120.pic has been changed, please change in 16-color
+When do you transfer all the controls and priority fixes from 256 to 16
+color pics?
+
+** done 6/6
+
+room160
+; falling into trash dumpster loop looks silly; 
+; ego is wider than the hole in the balcony
+; Bill:  look at balcony scene with AL
+
+** fixed 6/6
+
+room 380
+	STILL NEED a loop of Eve exiting tub gracefully.  She gets halfway
+out right now.
+
+** done 6/6
+
+room 390
+	add knots to Larry so he looks like he's tied to the bed 
+
+** done 6/6
+
+130
+(ego swimming in bathroom) STILL needs more work
+
+** done 6/6
+
+del view.805, this stuff now in loop 4 of 164
+
+** done 6/6
+
+
+larry falling thru escape now loop 4 of view.164, old loop in 164 not needed
+
+** done 6/6
+
+;[R340 V804 XY 26/140] origin point problem in breath spaying Larry view
+
+** done 6/6
+
+BILL: Change Larry inside elevator so he's near the buttons.
+That way, when he spins around on his way up, he'll be
+more obvious going side to side.
+
+** done 6/6
+
+pic.340 ;[R340 V809 XY 63/134] ART: remove ashtray from this pic
+
+** done 6/6
+
+view.801 (Larry sitting on barstool) needs to be cut down, PLEASE do not change origin points
+done
+
+** done 6/10
+
+view.394
+   skip color around glass is showing in loop of glass spinning
+
+view.612
+   cut down view, DONT TOUCH ORIGINS!
+
+
+
+
+
+										June 11, 1991
+
+
+
+BILL:
+v120 
+door last cel sticks in between the drunk's legs.  Look at it during
+	a room change going to r130 (Lefty's bathroom).  Adjust please.
+
+
+r380
+BILL we still need a button to turn bubbles on and off in closeup of Eve, 385
+	you may alter MY v385, L4    AL
+
+fix bubbles in tub to run efficiently.  Look at view. You'll see.
+	include center of tub in perimeter or Something?
+
+
+
+mouthNose cursor
+	I know you've worked on this, but the cursor still doesn't match the
+	icon in the iconBar.  Make cursor look like icon (not other way around,
+	OK?)
+
+
+r500
+outside the store, talking on the telephone with the tongue hanging out
+	could be useful now.  Have you got backups?  If not, find out view number
+	and we'll get Chris to restore off old network backups.  (Try out the
+	555-6969 number for fun, too. AND, go buy a lubber.  Watch ego head!)
+
+
+
+PLEASE REMOVE, CORRECT, FIX, ETC. those extra views in the view dir.
+	You know, 140B.v56 and on and on....
+
+
+
+AL will be in Fresno Wednesday.  Call if questions.

@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 731 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 731)
+
+(Question3
+   "4Who was NOT in the movie \"Easy Rider?\""
+   "Peter Fonda"
+   "Dennis Hopper"
+   "Karen Black"
+   "Karen Carpenter"
+)
+(Question4
+   "3Las Vegas is famous for"
+   "its beaches."
+   "being the capital of Arizona."
+   "gambling."
+   "its weather."
+)
+(Question5
+   "2The term \"Working Girl\" refers to"
+   "a secretary."
+   "a lady of negotiable virtue."
+   "an industrious woman."
+   "an employed female."
+)
+(Question6
+   "1Making a \"Hole in One\" is"
+   "every golfer's dream."
+   "too dirty to discuss here."
+   "something carpenters do."
+   "best done with scissors."
+)
+(Question7
+   "4My boss is"
+   "a jerk."
+   "a total jerk."
+   "an absolute total jerk."
+   "responsible for my paycheck."
+)

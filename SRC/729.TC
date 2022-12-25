@@ -1,0 +1,50 @@
+;**
+;**	Logics for room 729 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	June 25, 1991
+;**
+
+
+(script# 729)
+
+(Question46
+   "1Ronald Reagan's co-star in \"Bedtime for Bonzo\" was"
+   "a monkey."
+   "Peter O'Toole."
+   "Bonzo the Clown."
+   "Marilyn Monroe."
+)
+(Question47
+   "2The slogan \"It takes two hands to handle a whopper\"
+   referred to"
+   "John Holmes."
+   "a hamburger."
+   "overstuffed grocery bags."
+   "fishing."
+)
+(Question48
+   "4If you arrived at a party wearing your birthday suit,
+			you would"
+   "make many new friends."
+   "be thrown out."
+   "fit right in."
+   "It depends on the party."
+)
+(Question49
+   "1Cesar Chavez led a boycott of"
+   "grapes."
+   "X-rated movies."
+   "dirty magazines."
+   "goods from South Africa."
+)
+(Question50
+   "4James Brown is often referred to as"
+   "the Chairman of the Board."
+   "a great athlete."
+   "the Velvet Fog."
+   "the Godfather of Soul."
+)

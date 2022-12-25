@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 738 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 738)
+
+(Question38
+   "2What was illegal during Prohibition?"
+   "aphrodisiacs"
+   "alcohol"
+   "abstinence"
+   "perversion"
+)
+(Question39
+   "2Bonnie and"
+   "Ronnie"
+   "Clyde"
+   "Hubbard"
+   "Clod"
+)
+(Question40
+   "2Who spends the most time in Las Vegas?"
+   "Michael J. Fox"
+   "Wayne Newton"
+   "J. Paul Getty"
+   "Paul Volcker"
+)
+(Question41
+   "3Which U. S. President was not elected to office?"
+   "Johnson"
+   "Eisenhower"
+   "Ford"
+   "Cleveland"
+)
+(Question42
+   "3Which is not a currency?"
+   "yen"
+   "lira"
+   "fennel"
+   "rupee"
+)

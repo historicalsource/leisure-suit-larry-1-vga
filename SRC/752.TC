@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 752 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 752)
+
+(Question11
+   "2Do girls really have cooties?"
+   "Yes."
+   "No."
+   "Some do, some don't."
+   "Maybe."
+)
+(Question12
+   "3Which song was not recorded by Elvis?"
+   "\"Hound Dog\""
+   "\"Love Me Tender\""
+   "\"What'd I Say\""
+   "\"Heartbreak Hotel\""
+)
+(Question13
+   "3Edsel is a"
+   "girl's name."
+   "plane."
+   "car."
+   "great investment."
+)
+(Question14
+    "1Sex is"
+    "great."
+    "ok."
+    "a spectator sport."
+    "a mystery to me."
+)
+(Question15
+   "3Richard Nixon was the \_\_\_\_\_ President of the United States."
+   "last"
+   "funniest"
+   "thirty-seventh"
+   "first Negro"
+)

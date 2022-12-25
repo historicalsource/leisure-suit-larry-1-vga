@@ -1,0 +1,49 @@
+;**
+;**	Logics for room 751 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 751)
+
+(Question50
+   "2Doonesbury's \"Uncle Duke\" is based on"
+   "Jeffrey Hunter."
+   "Hunter S. Thompson."
+   "Huntz Hall."
+   "None of the above."
+)
+(Question51
+   "3In Westworld, \"where nothing can go wrong,\" guests were entertained by"
+   "Stephen Wright."
+   "X-rated movies."
+   "robots."
+   "Rodney Dangerfield."
+)
+(Question52
+   "1Mork was from the planet"
+   "Ork."
+   "Vulcan."
+   "Krypton."
+   "Pluto."
+)
+(Question53
+    "4Who was banned from \"Saturday Night Live\" because he lost a telephone poll?"
+    "John Belushi"
+    "Dan Akroyd"
+    "Chevy Chase"
+    "Andy Kaufman"
+)
+(Question54
+   "4The phrase \"Cutting the cheese\" refers to"
+   "hors d'oeuvres preparation."
+   "topping another French chef."
+   "leaving a warm climate."
+   "flatulence."
+)
+

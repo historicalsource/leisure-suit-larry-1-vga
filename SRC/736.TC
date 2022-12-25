@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 736 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	June 20, 1991
+;**
+
+
+(script# 736)
+
+(Question28
+   "1Elizabeth Taylor is"
+   "an actress."
+   "creator of a line of cosmetics."
+   "celebrating her silver wedding anniversary."
+   "a singer."
+)
+(Question29
+   "3Joan Rivers is"
+   "the real name of \"Dear Abby.\""
+   "engaged to Johnny Carson."
+   "a talk show hostess."
+   "polite to all those around her."
+)
+(Question30
+   "4Who starred in \"Bedtime for Bonzo?\""
+   "Clint Eastwood"
+   "Fred Astaire"
+   "Cary Grant"
+   "Ronald Reagan"
+)
+(Question31
+   "0Taxes should be"
+   "lower."
+   "higher."
+   "unchanged."
+   "eliminated."
+)
+(Question32
+   "0A moon is"
+   "an astronomical body."
+   "a practical joke."
+   "a form of pie."
+   "all of the above."
+)

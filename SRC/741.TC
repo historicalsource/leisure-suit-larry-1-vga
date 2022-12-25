@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 741 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 741)
+
+(Question53
+   "1The 1973 album \"Dark Side of the Moon\" was recorded by"
+   "Pink Floyd."
+   "Deep Purple."
+   "Bad News."
+   "the Grateful Dead."
+)
+(Question1
+   "2When playing \"Monopoly\" you"
+   "hope for a straight flush."
+   "must own four houses before building a hotel."
+   "need a black jack to win."
+   "win with a seven and a five."
+)
+(Question2
+   "3Which is not in Hawaii?"
+   "Oahu"
+   "Kauai"
+   "Fiji"
+   "Maui"
+)
+(Question3
+   "4Which is not a car?"
+   "Ferrari"
+   "Porsche"
+   "Corvair"
+   "Toshiba"
+)
+(Question4
+   "3President Eisenhower's nickname was"
+   "Tink."
+   "Blackjack."
+   "Ike."
+   "Tina."
+)

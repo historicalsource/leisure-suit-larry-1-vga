@@ -1,0 +1,66 @@
+(script# 141)
+
+(channel0
+	"\"Oh, John.\"  \"Oh, Marsha.\"\n
+	\"OH, John.\"  \"OH, Marsha.\"\n
+	\"Oh, JOHN!\"  \"Oh, MARSHA!\"\n
+	\"OH, JOHN!!\" \"OH, MARSHA!!\""
+
+	"soap opera."
+)
+
+(channel1
+	"\"Hello, friend, this is your ol' buddy Tom Bidet for Motel-69.
+	If you're driving down the highway of life towards ol' Lost Wages
+	and Mr. Sleepy's sitting up on the dashboard throwing dust
+	in your eyes...\""
+
+	"commercial."
+)
+
+(channel2
+	"\"...and now, ALoHa Productions is proud to present
+	`The Revenge of the Software Developers' in full color
+	and stereo sound...\""
+
+	"musical comedy."
+)
+
+(channel3
+	"\"...while Jim is fighting for his life with the raging female
+	rhinoceros in heat, I'll slip into my tent with the native girl and
+	this pitcher of Mai Tais...\""
+
+	"documentary."
+)
+
+(channel4
+	"\"...it's a beautiful day in the neighbor...\""
+
+	"No, no!! Anything but that!"
+)
+
+(channel5
+	"\"...live from Malaga, California, it's the Cable Sports Network
+	presentation of the Miniature Female Mud Wrestlers 500-Kilometer
+	Cross-Country Nude Bicycle Race...\""
+
+	"cable sports show."
+)
+
+(channel6
+	"\"...And next, Master Piece Theatre presents a special
+	3-D broadcast of `Naugahyde Goddesses of Oakhurst!'\""
+
+	"educational show."
+)
+
+(channel7
+	"\"...oh, baby, yeah. Yeah, I love it when you do that!
+	Ooooooooooh!! That hurts so good, pull it out a little deeper!!!\""
+
+	"nothing"
+)
+
+
+

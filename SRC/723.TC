@@ -1,0 +1,50 @@
+;**
+;**	Logics for room 723 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 723)
+
+(Question16
+   "2During the 70's, Carroll O'Connor portrayed a"
+   "kindly doctor."
+   "lovable bigot."
+   "handicapped lawyer."
+   "Negro junk dealer."
+)
+(Question17
+   "3The song \"American Pie\" was about"
+   "miscegenation."
+   "Marilyn Chambers."
+   "a dead rock star."
+   "four minutes too long."
+)
+(Question18
+   "3Thomas Eagleton was dropped from the 1972 Democratic National
+			Ticket when knowledge of his previous \_\_\_\_\_ treatments became
+			known."
+   "skin"
+   "screen"
+   "shock"
+   "scalp"
+)
+(Question19
+   "2The 70's practice of running around naked was called"
+   "flashing."
+   "streaking."
+   "swinging."
+   "on account of rain."
+)
+(Question20
+   "4Peter Benchley's novel \"Jaws\" was about"
+   "Linda Lovelace."
+   "dieting."
+   "Joan Rivers."
+   "sharks."
+)

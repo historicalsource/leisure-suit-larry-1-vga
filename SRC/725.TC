@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 725 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 725)
+
+(Question26
+   "2Angela Davis is"
+   "the middle Pointer Sister."
+   "a failed politician."
+   "an example of split ends gone wild."
+   "Bette's daughter."
+)
+(Question27
+   "4Detente is"
+   "prohibited by law in 41 states."
+   "a feminine hygiene spray."
+   "the masculine form of \"deteuse.\""
+   "a policy to replace war."
+)
+(Question28
+   "4Kwi-Chang-Caine became famous by saying"
+   "\"I am not a crook.\""
+   "\"The barren fig tree bears no plums.\""
+   "\"Hi, sailor.\ New in town?\""
+   "\"Aaaaaiiiyeeeaagggh!\""
+)
+(Question29
+   "0Ted Kennedy is best remembered for his"
+   "driving."
+   "underwater free-style."
+   "brothers."
+   "All of the above."
+)
+(Question30
+   "3\"NORML\" is"
+   "not gay."
+   "what Falwell wants you to be."
+   "trying to legalize marijuana."
+   "misspelled."
+)

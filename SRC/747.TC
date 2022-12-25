@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 747 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 747)
+
+(Question30
+   "4If Bo Derek were here, I'd ask her to"
+   "leave."
+   "respect my privacy."
+   "help me with my homework."
+   "stop playing computer games."
+)
+(Question31
+   "2Joe DiMaggio played"
+   "pool."
+   "baseball."
+   "basketball."
+   "trumpet."
+)
+(Question32
+   "3The most populous city in the United States is"
+   "Los Angeles."
+   "Mexico City."
+   "New York."
+   "Chicago."
+)
+(Question33
+    "2A nehru jacket is"
+    "made from tanned nehru hides."
+    "out of date."
+    "a Middle Eastern prophylactic."
+    "around a car's radiator."
+)
+(Question34
+   "3Sergeant Pepper was"
+   "the Beatles' chauffeur."
+   "Elvis' manager."
+   "the leader of the Lonely Hearts Club Band."
+   "hung for treason."
+)

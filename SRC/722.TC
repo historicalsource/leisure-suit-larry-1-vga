@@ -1,0 +1,50 @@
+;**
+;**	Logics for room 722 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 722)
+
+(Question6
+   "2The world is"
+   "flat."
+   "spherical."
+   "a big place."
+   "near Fresno."
+)
+(Question7
+   "4\"Let It Be\" was recorded by"
+   "the Rolling Stones."
+   "the Monkees."
+   "Creedence Clearwater."
+   "the Beatles."
+)
+(Question8
+   "4All politicians are"
+   "hardworking."
+   "honest."
+   "ethical."
+   "on the public payroll."
+)
+(Question9
+   "1Lingerie is"
+   "sexy."
+   "a kind of car."
+   "a French food."
+   "edible."
+)
+(Question10
+   "2Paul, John, Ringo and"
+   "Fred."
+   "George."
+   "Harry."
+   "me."
+)
+
+

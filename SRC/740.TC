@@ -1,0 +1,49 @@
+;**
+;**	Logics for room 740 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 740)
+
+(Question48
+   "1The first Negro to play Major League Baseball was"
+   "Jackie Robinson."
+   "Joe DiMaggio."
+   "Benny Goodman."
+   "Satchel Paige."
+)
+(Question49
+   "2Former Congressman Wilbur Mills went for a dip in the
+			Tidal Basin with"
+   "nothing on but his pride."
+   "a stripper named Fanne."
+   "his dog Spot."
+   "a 20-year-old secretary."
+)
+(Question50
+   "3Martha Mitchell was"
+   "a porno star."
+   "a famous author."
+   "the outspoken wife of an Attorney General."
+   "All of the above."
+)
+(Question51
+   "2The G-Spot is supposed to be"
+   "Ground Zero at a nuclear blast."
+   "a female erogenous zone."
+   "an unexplained astro- nomical discovery."
+   "the place where the FBI was first established."
+)
+(Question52
+   "4Hugh Hefner is usually photographed in"
+   "the nude."
+   "a hot tub."
+   "his current lover's arms."
+   "pajamas."
+)

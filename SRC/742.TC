@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 742 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 742)
+
+(Question5
+   "4Bourbon Street is in"
+   "Whiskeyville, Indiana."
+   "Jackass Flats, Idaho."
+   "\"Monopoly.\""
+   "New Orleans, Louisiana."
+)
+(Question6
+   "1Does a pair of queens beat three deuces?"
+   "Yes, in blackjack."
+   "Yes, in poker."
+   "No, in canasta."
+   "It depends on what the three deuces said."
+)
+(Question7
+   "3Calvin Klein is"
+   "married to Brooke Shields."
+   "a movie star."
+   "a clothing designer."
+   "President of the Coarsegold Chamber of Commerce."
+)
+(Question8
+   "4Two bits is"
+   "all it takes to consume a \"Big Mac.\""
+   "computer talk."
+   "about a dollar."
+   "the former cost for a shave and a haircut."
+)
+(Question9
+   "4Charlie McCarthy and"
+   "John Lennon"
+   "Louis Pasteur"
+   "Albert Einstein"
+   "Edgar Bergen"
+)

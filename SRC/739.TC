@@ -1,0 +1,50 @@
+;**
+;**	Logics for room 739 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 739)
+
+(Question43
+   "3Which is not a baseball team?"
+   "Blue Jays"
+   "Cardinals"
+   "Seahawks"
+   "Orioles"
+)
+(Question44
+   "1Who made a record album with a cover that looked like a pair
+			of blue jeans, complete with a working zipper?"
+   "Rolling Stones"
+   "Boy George"
+   "Olivia Newton Jean"
+   "Madonna"
+)
+(Question45
+   "1Bob Hope, Dinah Shore, Elvis, and the Beatles all made their
+   	American television debut on"
+   "\"The Ed Sullivan Show.\""
+   "\"Your Show of Shows.\""
+   "\"The Tonight Show.\""
+   "\"My Mother, the Car.\""
+)
+(Question46
+   "2Michael Doonesbury founded"
+   "the American Nazi Party."
+   "Walden Puddle Commune."
+   "the Young Republicans."
+   "the Grace Jones Fan Club."
+)
+(Question47
+   "3The first baseball player to challenge the reserve clause was"
+   "Philly Jo Jones."
+   "Roger Maris."
+   "Curt Flood."
+   "Ted Williams."
+)

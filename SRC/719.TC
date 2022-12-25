@@ -1,0 +1,314 @@
+;**
+;**	Logics for room 719 -- Copy Protection Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**			 Copyright 1986, 1991
+;**		  by Josho
+;**
+;**	Last Update:  July 8, 1991
+;**
+
+
+(script# 719)
+
+
+(Question1
+	"4What is the color of the sunset behind the cowboy riding the bucking 
+		bronco beneath the word \"tenderfoot\" on the 
+		\"Palamino Ranch\" brochure?"
+	"Mauve"
+	"Puce"
+	"Burnt Avocado"
+	"Salmon"
+)
+(Question2
+	"2According to \"Whose Whom,\" what length legs does Larry prefer his 
+		women to have?"
+	"Long enough to reach the ground"
+	"Any length"
+	"65 inches"
+	"Similar"
+)
+(Question3
+	"1According to \"Whose Whom,\" what kind of hair does Larry prefer his 
+		women to have?"
+	"Clean"
+	"Real"
+	"Blonde"
+	"Thick, luxuriant and kissably soft"
+)
+(Question4
+	"3According to \"Whose Whom,\" how tall is Larry Laffer?"
+	"Tall enough to reach the ground"
+	"Four feet, nine inches"
+	"Five feet, five inches"
+	"69 inches, what else?"
+)
+(Question5
+	"1According to \"Whose Whom,\" what does Larry Laffer do for a living?"
+	"Traveling software salesman"
+	"Semi-professional gambler"
+	"Ramblin' kinda guy"
+	"Model for automobile windshield shades"
+)
+(Question6
+	"2According to \"Whose Whom,\" how old is Larry Laffer?"
+	"39"
+	"40"
+	"35, going on 16"
+	"50"
+)
+(Question7
+	"4According to \"Whose Whom,\" 
+		how well-endowed does Larry prefer his women?"
+	"Any size"
+	"Long enough to reach the ground"
+	"Petite blossoms"
+	"Medium handfuls"
+)
+(Question8
+	"1What color is the dotted line at the bottom of the 
+		\"Whose Whom\" letter?"
+	"Navy blue"
+	"Seafoam green"
+	"Raspberry red"
+	"Orange orange"
+)
+(Question9
+	"2What taste treat is pictured to the left of the
+		frankfurters in the \"Palamino Ranch\" brochure?"
+	"Beans"
+	"Tacos"
+	"Breakfast fajitas"
+	"Fried eggs and cornbread"
+)
+(Question10
+	"1What taste treat is illustrated to the right of the
+		frankfurters in the \"Palamino Ranch\" brochure?"
+	"Beans"
+	"Tacos"
+	"Breakfast fajitas"
+	"Fried eggs and cornbread"
+)
+(Question11
+	"3Getting to the Palamino Ranch is easier than"
+	"fallin' off a log."
+	"findin' a needle in a haystack."
+	"pickin' off a saddlesore."
+	"goin' outhouse-tippin' at midnight."
+)
+(Question12
+	"2Who is the Vice President of \"Whose Whom's\" Direct Male Department?"
+	"Phil DeKonndom"
+	"Adolph Muhweeny"
+	"Kent Gettitup"
+	"Les Befrenz"
+)
+(Question13
+	"1According to the \"Palamino Ranch\" brochure, 
+		Old Faceful erupts every"
+	"35 minutes."
+	"25 minutes."
+	"20 minutes."
+	"time you smile at it."
+)
+(Question14
+	"2In the \"Palamino Ranch\" brochure, 
+		the gal sittin' 'round the campfire is playing a"
+	"harmonica."
+	"guitar."
+	"jaw harp."
+	"flute-a-phone."
+)
+(Question15
+	"3What kind of contest is held on Tuesdays at the Palamino Ranch?"
+	"Cowpie throwin'"
+	"Hog callin'"
+	"Canyon Yodelin'"
+	"Pie eatin'"
+)
+(Question16
+	"1According to \"Whose Whom in America,\"
+		what kind of credit risk is Larry?"
+	"Adequate"
+	"Poor"
+	"Nonexistent"
+	"Bogus"
+)
+(Question17
+	"4The Vice President of \"Whose Whom's\" 
+		Direct Male department signs his name with a"
+	"black fountain pen."
+	"blue felt-tip pen."
+	"leaky gold magic marker."
+	"red fine-tip pen."
+)
+(Question18
+	"1The Palamino Ranch is available for"
+	"bar-mitzvahs."
+	"confirmations."
+	"anniversaries."
+	"St. Trixie's Day of Self-Flagellation."
+)
+(Question19
+	"2The man on the cover of the Palamino Ranch brochure is about to"
+	"hang."
+	"draw."
+	"lasso."
+	"ride."
+)
+(Question20
+	"4The map directing you to the Palamino Ranch looks like"
+	"a map of Fresno."
+	"a map of Manhattan."
+	"a guide to Swedish hot spots."
+	"a closeup of Baked Beans."
+)
+(Question21
+	"3What's for lunch at the Palamino Ranch?"
+	"Grubsteaks and baked potatoes"
+	"Tacos and hot buns"
+	"Cornbread and chili"
+	"Weiners-in-a-blanket"
+)
+(Question22
+	"2The address on the back of the \"Whose Whom\" letter is"
+	"smeared."
+	"invisible."
+	"scrawled on by a child."
+	"also Al Lowe's home address."
+)
+(Question23
+	"1What color is the line under the letterhead of the \"Whose Whom\"
+		letter?"
+	"Red"
+	"Blue"
+	"Green"
+	"Black"
+)
+(Question24
+	"4According to \"Whose Whom,\" Larry prefers his ladies' derrieres"
+	"firm."
+	"rounded."
+	"petite."
+	"yes."
+)
+(Question25
+	"2The offices of \"Whose Whom\" are located in"
+	"Lost Wages."
+	"Salt Lick City."
+	"Sins-in-Addie."
+	"New Dork City."
+)
+(Question26
+	"1What color is the border on top of the \"Palamino Ranch\" brochure?"
+	"Blue-gray"
+	"Aquamarine"
+	"Rust"
+	"Dusty beige"
+)
+(Question27
+	"3The man in the little picture above the word \"Activities\" 
+		in the \"Palamino Ranch\" brochure is saddling up a"
+	"horse."
+	"bull."
+	"fence."
+	"calf."
+)
+(Question28
+	"2What's not allowed at the Palamino Ranch?"
+	"Cow-tippin'"
+	"Spurs"
+	"Bareback ridin'"
+	"Cow pokin'"
+)
+(Question29
+	"4In the small photo next to the word \"spread\" in the \"Palamino Ranch\" 
+		brochure, a cowboy seems to be hugging"
+	"a rodeo clown."
+	"another cowboy."
+	"a cowgirl."
+	"a cow."
+)
+(Question30
+	"4How far is the Palamino Ranch from the Humongous Tetons?"
+	"Spittin' distance"
+	"Just down the road"
+	"2 miles"
+	"5 miles"
+)
+(Question31
+	"1What will the folks at the Palamino Ranch show the wimmenfolk 
+		how to do?"
+	"Pull taffy under the stars"
+	"Make patchwork quilts at the Bee"
+	"Churn ice cream down by the barn"
+	"Lance boils up at the infirmary"
+)
+(Question32
+	"2According to the \"Palamino Ranch\" brochure, 
+		where can you see oozing paint pots year 'round?"
+	"Moaning Glory Acres"
+	"Carla's Bad Caverns"
+	"The Lost Wages Mystery Hole"
+	"Coarsegold, California"
+)
+(Question33
+	"3What do the cowgirls have at the Palamino Ranch?"
+	"All the rope you'll need"
+	"Band-aids 'n banjos"
+	"Jugs o' moonshine"
+	"Bed rolls 'n chaps"
+)
+(Question34
+	"2How does the Vice President of \"Whose Whom's\" Direct Male 
+		Department sign his name?"
+	"Sincerely"
+	"Enthusiastically"
+	"Hungrily"
+	"Admiringly"
+)
+(Question35
+	"1Which of his credit cards does \"Whose Whom\" want Larry to use?"
+	"None"
+	"Master-Pay-It"
+	"American Espresso"
+	"Whiner's Club"
+)
+(Question36
+	"4Which of the following is NOT one of the activities at the 
+		Palamino Ranch?"
+	"Cow pokin'"
+	"Bareback ridin'"
+	"Ropin' fillies"
+	"Cattle rustlin'"
+)
+(Question37
+	"1The phone number for the Palamino Ranch is"
+	"1-800-ZIP-DOWN"
+	"1-800-KIS-QUIK"
+	"1-800-COW-WHIZ"
+	"1-800-MIZ-BULL"
+)
+(Question38
+	"3The map that shows you how to get to the Palamino Ranch is"
+	"a side of bacon."
+	"a slab of steak."
+	"a pile of beans."
+	"an ear of corn."
+)
+(Question39
+	"2\"Whose Whom\" thinks Larry and men like him are"
+	"manly, macho and miserable."
+	"fabulouso, studly, sensitive."
+	"brilliant, bronzed, brawny."
+	"sweet, suave and sophisticated."
+)
+(Question40
+	"1Whose address appears at the bottom of the \"Whose Whom\" brochure?"
+	"Sierra On-Line's"
+	"\"Whose Whom In America's\""
+	"Lawrence Laffer's"
+	"None. This is a trick question!"
+)
+

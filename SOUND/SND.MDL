@@ -1,0 +1,22 @@
+(381.snd        ;mHotTub                PlayBed:50      m????-  Loop
+                ;play for entire Penthouse floor
+                ;Volume changes:
+                ;       On closeup of Eve:
+                ;               Set Channel 3 to 100 - Flute
+                ;               Set Channel 8 to 110 - HH
+                ;               Set Channel 4 to 0   - Gtr Melody
+                ;
+                ;       On exit closeup of Eve (except under program control)
+                ;               Set Channel 3 to 0   - Flute
+                ;               Set Channel 8 to 0   - HH
+                ;               Set Channel 4 to 127 - Gtr Melody
+                ;
+                ;       On Eve gets the apple:
+                ;               Set Channel 5 to 75  - Solo
+                ;
+                ;       On Couple exits hot tub (program control):
+                ;               Set Channel 2 to 0   - Ballad Bass
+                ;               Set Channel 6 to 110 - Walking Bass
+                ;               Set Channel 9 to 110 - Ride Cymbal
+     (seq\Penthous.mid)
+)

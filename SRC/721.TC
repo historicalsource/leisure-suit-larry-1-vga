@@ -1,0 +1,72 @@
+;**
+;**	Logics for room 721 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 721)
+
+(Question1
+   "3Johnny Carson is"
+   "a singer."
+   "David Letterman's sidekick."
+   "Ed McMahon's sidekick."
+   "an actor."
+)
+
+(Question2
+   "4VCR stands for"
+   "Very Confusing Record."
+   "Visual Cartridge Recording."
+   "Very Complete Record."
+   "Video Cassette Recorder."
+)
+
+(Question3
+   "1The East Coast is"
+   "home of the Mets."
+   "a country."
+   "where people talk funny."
+   "adjacent to Texas."
+)
+
+(Question4
+   "3Is this software pirated?"
+   "Yes."
+   "I'm not talking."
+   "No. (How could you even ask!)"
+   "No, just borrowed."
+)
+
+(Question5
+   "0Pia Zadora is"
+   "sexy."
+   "a singer."
+   "short."
+   "all of the above."
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

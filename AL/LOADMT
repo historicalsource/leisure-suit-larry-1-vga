@@ -1,0 +1,20 @@
+view     =.; C:\LL1\view\*.v56; C:\LL1\view\*.v16
+palette  =.; C:\LL1\view
+pic      =.; C:\LL1\pic
+bitmap   =.; C:\LL1\pic
+
+script   =.; C:\LL1\script;     C:\system
+text     =.; C:\LL1\script;     C:\system
+vocab    =.; C:\LL1\script;     C:\system
+
+font     =C:\ll1\font
+cursor   =C:\LL1\script;        C:\system
+sound    =C:\LL1\sound
+patch    =C:\LL1\sound
+
+soundDrv =C:\system\mt32.drv
+videoDrv =C:\system\vga320.drv
+kbdDrv   =C:\system\ibmkbd.drv
+mouseDrv =YES
+minHunk	=350k
+country  =1

@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 744 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	June 11, 1991
+;**
+
+
+(script# 744)
+
+(Question15
+   "3Which one of these was neither a war nor a \"police action?\""
+   "Crimean"
+   "Korean"
+   "Chinese"
+   "Vietnamese"
+)
+(Question16
+   "4Who's buried in Grant's tomb?"
+   "Grant Tinker"
+   "Land Grant"
+   "NSF Grant"
+   "Mrs. Grant"
+)
+(Question17
+   "1John F. Kennedy drove a"
+   "PT boat."
+   "spike faster than a steam driver."
+   "battleship."
+   "Ferrari."
+)
+(Question18
+   "3Peter Piper picked a peck of pickled"
+   "pips."
+   "pipers."
+   "peppers."
+   "peekers."
+)
+(Question19
+   "3A result of Watergate was"
+   "the loss of water."
+   "Jimmy Carter quit."
+   "Richard Nixon quit."
+   "Gerald Ford quit."
+)

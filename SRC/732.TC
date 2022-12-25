@@ -1,0 +1,49 @@
+;**
+;**	Logics for room 732 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 732)
+
+(Question8
+   "0How many programmers does it take to screw in a light bulb?"
+   "None, it's a hardware problem."
+   "None, programmers can't fit in light bulbs."
+   "100. One to hold the bulb and 99 to debug the house."
+   "None so far, but they'll get to it Real Soon Now."
+)
+(Question9
+   "1A hard disk is"
+   "better than a floppy."
+   "embarrassing to have at the office."
+   "a state-of-the-art frisbee."
+   "what happens when you leave your floppy out in the sun too
+			long."
+)
+(Question10
+   "2In some personal ads, TV stands for"
+   "television."
+   "transvestite."
+   "trans-venereal."
+   "terre-voracic."
+)
+(Question11
+   "4Lucy and Ricky, Fred and"
+   "Barney."
+   "Carol."
+   "Alice."
+   "Ethel."
+)
+(Question12
+   "3Mel Brooks is"
+   "black."
+   "Puerto Rican."
+   "a comedian."
+   "Catholic."
+)

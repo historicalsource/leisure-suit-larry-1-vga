@@ -1,0 +1,121 @@
+
+                                   FONTS_91
+
+
+
+                     ...dedicated to all those who use 
+                   (and abuse) fonts on a regular basis...
+
+
+
+Attempting to organize the mass of fonts that have been developed
+over the past 4 years, we came up with the following naming convention:
+the thousands digit indicates the type; the hundreds digit indicates
+the font; and the last two digits indicate the height in pixels. 
+Therefore, font number 1208 is a san serif font 8 pixels tall.
+
+1000 fonts -- SAN SERIF 
+2000 fonts -- SERIF 
+3000 fonts -- SCRIPT
+4000 fonts -- BLOCK 
+5000 fonts -- DECORATIVE 
+6000 fonts -- HEADLINE 
+
+SERIFS are the teensy-weensy lines at the tops and bottoms of some 
+letters.  SAN SERIF are fonts without serifs ("san" being from the 
+Latin, "Sansabelt" or "Jaymar Ruby").  LEADING is the white space
+between lines of type (the more lead, the farther apart the lines
+are).  A short font history will follow (much later).
+
+
+A complete list follows:
+------------------------
+
+
+SAN SERIF 
+
+1005    smallest readable upper/lowercase, narrow width, not recommended, 
+        use only in a (for a) pinch
+
+1006    more readable, better proportions than 1005
+
+1008     
+
+1105    a kinda narrow Helvetica
+
+1106    more leading that 1105
+
+1207    medium width Helvetica-esque
+
+1208    medium width Helvetica-ette
+
+1307    wide Helvetica-like thing
+
+1405    reverse of 1205 (as seen on Arnoid's helmet in SQ3)
+
+1505    block caps where lowercase should be; symbols where uppercase
+        should be.  (as made famous in SQ3 heirogyphics at end of 
+        Astro Chicken arcade game)
+
+
+
+SERIF 
+
+2107    was originally font.0, a lovely Chicago ripoff
+
+2108    known and loved as font.1; a "Herb Lubalin-like" masterpiece
+
+2206    [work in progress]
+
+2207    TSN's button font
+
+2306    as seen in SQ2, but made famous by QFG1, nee HQ1
+
+2308    like 2306, but 2 pixels taller
+
+2309    an outline of 2306
+
+2407    monospaced American typewriter
+
+2508    a heavy black font to be used behind font ____ (?)
+
+2510    a large, readable, Caslon-type type, semi-bold, with a hint of
+        mint
+
+
+
+SCRIPT
+
+3008    script, Middle Ages, pretension yet easy to read
+
+3110    Black Forest script, fussy, frilly, Robin Hoodie
+
+3112    black background for 3110
+
+
+
+BLOCK 
+
+4010    [work in progress]
+
+4109    big and chunky, heavy, black
+
+4112    even bigger.  With a touch of Western influence
+
+4115    Helvetica Giant font.  From Larry2, "She's Naked!"
+
+4210    Olde English
+
+
+
+DECORATIVE 
+
+5110    outer space/computer OCR font.  From SQ2
+
+5112    outline of 5110
+
+5210    bold, larger version of 5110
+
+
+
+HEADLINE 

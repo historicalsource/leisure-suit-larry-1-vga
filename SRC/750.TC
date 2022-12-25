@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 750 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 750)
+
+(Question45
+   "3Mohammed Ali is"
+   "a ballet star."
+   "an Arab terrorist."
+   "a professional boxer."
+   "a singer."
+)
+(Question46
+   "4Who is not a mass murderer?"
+   "Charlie Manson"
+   "Ted Bundy"
+   "Jack the Ripper"
+   "Timothy Leary"
+)
+(Question47
+   "2There are about \_\_\_\_\_ calories in a can of beer."
+   "15"
+   "150"
+   "1500"
+   "15000"
+)
+(Question48
+    "4John Belushi was on"
+    "\"Mr. Rogers.\""
+    "\"The PTL club.\""
+    "\"My Mother the Car.\""
+    "\"Saturday Night Live.\""
+)
+(Question49
+   "3James Earl Jones was the voice of"
+   "Jason in \"Friday the 13th.\""
+   "Freddie in \"Nightmare on Elm Street.\""
+   "Darth Vader in \"Star Wars.\""
+   "Kriswell in \"Plan 9 From Outer Space.\""
+)

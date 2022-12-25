@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 730 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 730)
+
+(Question51
+   "3Who lost a daughter but gained a \"meathead?\""
+   "George Jefferson"
+   "Ronald Reagan"
+   "Archie Bunker"
+   "Ted Knight"
+)
+(Question52
+   "4Which U. S. Secretary of State was born in Germany?"
+   "Dean Rusk"
+   "William Rogers"
+   "George Schultz"
+   "Henry Kissinger"
+)
+(Question53
+   "2Who was the inventive genius behind the Apple computer?"
+   "Bill Gates"
+   "Steve Wozniak"
+   "Ken Williams"
+   "Steve Russell"
+)
+(Question1
+   "3\"Close Encounters of the Third Kind\" is about"
+   "politics in third-world countries."
+   "homo- and heterosexual sex."
+   "creatures from outer space."
+   "a bicycle race across Alaska."
+)
+(Question2
+   "2IBM stands for"
+   "Ittsy Bittsy Men."
+   "International Business Machines."
+   "Italian Branch of the Mafia."
+   "Iranian Broom Makers."
+)

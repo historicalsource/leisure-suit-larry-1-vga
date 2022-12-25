@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 745 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 745)
+
+(Question20
+   "2I find computer games with adult content"
+   "offensive."
+   "acceptable."
+   "repulsive."
+   "under my bed."
+)
+(Question21
+   "1The Atlantic and Pacific Oceans are connected by the"
+   "Panama Canal."
+   "Snake River."
+   "hips."
+   "Isthmus of Panama."
+)
+(Question22
+   "3The most likely place to find virgins is"
+   "The Virgin Islands."
+   "Virginia."
+   "St. Mary's Girls School."
+   "Hollywood."
+)
+(Question23
+    "1Who wrote \"To be, or not to be?\""
+    "Bill Shakespeare."
+    "Paul McCartney."
+    "George Bernard Shaw."
+    "Tennessee Williams."
+)
+(Question24
+   "2The largest state is"
+   "California."
+   "Alaska."
+   "Rhode Island."
+   "Texas."
+)

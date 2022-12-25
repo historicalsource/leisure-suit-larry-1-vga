@@ -1,0 +1,48 @@
+;**
+;**	Logics for room 749 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	June 11, 1991
+;**
+
+
+(script# 749)
+
+(Question40
+   "3\"Where's the\""
+   "catsup?"
+   "toilet?"
+   "beef?"
+   "rest of this game?"
+)
+(Question41
+   "1Who was not an astronaut?"
+   "John Milton"
+   "John Glenn"
+   "Neil Armstrong"
+   "Richard Gordon"
+)
+(Question42
+   "2Who has not been a U. S. Attorney General?"
+   "John Mitchell"
+   "Sam Shepard"
+   "Ramsey Clark"
+   "Herbert Brownell"
+)
+(Question43
+    "4Which is not a cheese?"
+    "Jarlsburg"
+    "Mozzarella"
+    "Brie"
+    "Reisling"
+)
+(Question44
+   "4Captain Kangaroo's sidekick was"
+   "Mr. Potato Head."
+   "Winnie the Pooh."
+   "Mr. Rogers."
+   "Mr. Greenjeans."
+)

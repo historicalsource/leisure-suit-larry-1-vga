@@ -1,0 +1,49 @@
+;**
+;**	Logics for room 735 -- Quiz Text
+;**
+;**	LSL1:  Leisure Suit Larry in The Land of the Lounge Lizards
+;**	       Copyright 1986, 1991
+;**		by Al Lowe, Oliver Brelsford & Mike Larsen
+;**
+;**	Last Update:	May 4, 1991
+;**
+
+
+(script# 735)
+
+(Question23
+   "4I have hair on my"
+   "head."
+   "palms."
+   "keyboard."
+   "lottsa places."
+)
+(Question24
+   "2When it's noon in California in August, in St. Louis it's"
+   "miserable."
+   "2:00 p.m."
+   "3:00 p.m."
+   "time for a beer."
+)
+(Question25
+   "2The best \"pick-up\" line is:"
+   "Hey baby, what's your sign?"
+   "Want to go for a ride in my Porsche?"
+   "For a fat girl, you sure don't sweat much!"
+   "You got any Vaseline on you?"
+)
+(Question26
+   "4The \"Mile-High Club\" is"
+   "a bird-watching society."
+   "a Denver ski club."
+   "a bar in East L. A."
+   "open to those who have performed aerial acrobatics inside a
+			plane's rest room."
+)
+(Question27
+   "3My sex life is best described as"
+   "non-existent and non- contemplated."
+   "what sex life?"
+   "none of your business!!"
+   "a ripening tomato."
+)
